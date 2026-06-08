@@ -17,5 +17,5 @@ public class Notebook extends Recurso {
 
     public String getDescricao() {return descricao;}
 
-    public void setDescricao(String descricao) {descricao = descricao;}
+    public void setDescricao(String descricao) {this.descricao = descricao;}
 }

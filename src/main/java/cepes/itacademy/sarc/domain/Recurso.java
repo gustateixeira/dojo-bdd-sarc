@@ -1,7 +1,7 @@
 package cepes.itacademy.sarc.domain;
 
 public abstract class Recurso {
-    private String id;
+    private final String id;
 
     public Recurso(String id) {
         this.id = id;
