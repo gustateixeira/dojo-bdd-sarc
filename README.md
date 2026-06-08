@@ -80,4 +80,3 @@ Os grupos deverão aplicar os conceitos de BDD e Engenharia de Software para cor
 ## Créditos e Desenvolvimento
 
 Este projeto de arquitetura educacional e seu ambiente de testes integrado foram "vibe-codados" com o auxílio do Gemini e impulsionados pelo autocomplete do IntelliJ IDEA.
-```
