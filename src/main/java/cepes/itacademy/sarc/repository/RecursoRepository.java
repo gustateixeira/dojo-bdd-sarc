@@ -4,5 +4,5 @@ import cepes.itacademy.sarc.domain.Recurso;
 import java.util.Optional;
 
 public interface RecursoRepository {
-    Optional<Recurso> findById(String id);
+    Optional<Recurso> buscaPorId(String id);
 }

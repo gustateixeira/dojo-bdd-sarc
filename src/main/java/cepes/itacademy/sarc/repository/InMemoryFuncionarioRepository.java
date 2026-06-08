@@ -16,7 +16,7 @@ public class InMemoryFuncionarioRepository implements FuncionarioRepository {
     }
 
     @Override
-    public Optional<Funcionario> findByMatricula(String matricula) {
+    public Optional<Funcionario> buscaPorMatricula(String matricula) {
         return funcionarios.stream()
                 .filter(f -> f.getMatricula().equalsIgnoreCase(matricula))
                 .findFirst();
