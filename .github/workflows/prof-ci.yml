@@ -1,0 +1,24 @@
+name: Prof. CI - Validação do Desafio BDD
+
+on:
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  validar-desafio:
+    name: Executando Testes de BDD (Java 21)
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout do código do aluno
+        uses: actions/checkout@v4
+
+      - name: Configurar o JDK 21
+        uses: actions/setup-java@v4
+        with:
+          java-version: '21'
+          distribution: 'temurin'
+          cache: 'maven'
+
+      - name: Executar Suíte de Testes (Cucumber JVM)
+        run: mvn clean test
