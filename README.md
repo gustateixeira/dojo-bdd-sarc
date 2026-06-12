@@ -46,10 +46,12 @@ src/
 │           └── service/        # Camada de serviços com as regras de alocação (AllocationService)
 └── test/
     ├── java/
-    │   ├── cepes/itacademy/runner/  # Classe executora da suíte (CucumberRunnerTest)
-    │   └── steps/                   # Definição de passos em Java (AllocationSteps)
+    │   ├── cepes/itacademy/sarc/
+    │   │   ├── runner/         # Classe executora da suíte BDD (CucumberRunnerTest)
+    │   │   └── service/        # Testes unitários/sociáveis da regra de negócio (AllocationServiceTest)
+    │   └── steps/              # Definição de passos em Java (AllocationSteps)
     └── resources/
-        ├── features/                # Arquivos Gherkin com os cenários (allocation.feature)
+        ├── features/                 # Arquivos Gherkin com os cenários (allocation.feature)
         └── junit-platform.properties # Configurações da plataforma de testes
 ```
 

@@ -1,4 +1,4 @@
-package cepes.itacademy.runner;
+package cepes.itacademy.sarc.runner;
 
 import org.junit.platform.suite.api.ConfigurationParameter;
 import org.junit.platform.suite.api.IncludeEngines;
